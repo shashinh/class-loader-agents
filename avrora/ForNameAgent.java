@@ -227,6 +227,7 @@ public class ForNameAgent extends ClassLoader {
 			clazz = Class.forName("avrora.sim.mcu.ADC$ControlRegister$ConversionEvent");
 			clazz = Class.forName("avrora.sim.mcu.ADC$MUXRegister");
 			clazz = Class.forName("avrora.sim.mcu.ATMega128");
+			clazz = Class.forName("avrora.sim.mcu.ATMega128$Factory");
 			clazz = Class.forName("avrora.sim.mcu.ATMegaFamily");
 			clazz = Class.forName("avrora.sim.mcu.ATMegaFamily$DirectionRegister");
 			clazz = Class.forName("avrora.sim.mcu.ATMegaFamily$FlagRegister");
@@ -460,6 +461,7 @@ public class ForNameAgent extends ClassLoader {
 			clazz = Class.forName("cck.util.Option$Long");
 			clazz = Class.forName("cck.util.Option$Str");
 			clazz = Class.forName("cck.util.Options");
+			clazz = Class.forName("cck.util.Util");
 			clazz = Class.forName("cck.util.Util$Error");
 			clazz = Class.forName("cck.util.Util$InternalError");
 			clazz = Class.forName("cck.util.Util$Unexpected");
