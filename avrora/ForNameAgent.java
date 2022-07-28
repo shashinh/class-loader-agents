@@ -325,6 +325,7 @@ public class ForNameAgent extends ClassLoader {
 			clazz = Class.forName("avrora.sim.mcu.USART$USARTProperties");
 			clazz = Class.forName("avrora.sim.output.EventBuffer");
 			clazz = Class.forName("avrora.sim.output.SimPrinter");
+			clazz = Class.forName("avrora.sim.platform.DefaultPlatform$Factory");
 			clazz = Class.forName("avrora.sim.platform.ExternalFlash");
 			clazz = Class.forName("avrora.sim.platform.ExternalFlash$Delay");
 			clazz = Class.forName("avrora.sim.platform.ExternalFlash$Memory");
