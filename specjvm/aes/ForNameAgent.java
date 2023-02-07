@@ -7,13 +7,12 @@ public class ForNameAgent extends ClassLoader {
 			
 			Class clazz;
 
-
-			//clazz = Class.forName("soot.rtlib.tamiflex.IUnexpectedReflectiveCallHandler");
-			//clazz = Class.forName("soot.rtlib.tamiflex.OpaquePredicate");
-			//clazz = Class.forName("soot.rtlib.tamiflex.ReflectiveCalls");
+			clazz = Class.forName("soot.rtlib.tamiflex.IUnexpectedReflectiveCallHandler");
+			clazz = Class.forName("soot.rtlib.tamiflex.OpaquePredicate");
+			clazz = Class.forName("soot.rtlib.tamiflex.ReflectiveCalls");
 			clazz = Class.forName("soot.rtlib.tamiflex.ReflectiveCallsWrapper");
-			//clazz = Class.forName("soot.rtlib.tamiflex.SootSig");
-			//clazz = Class.forName("soot.rtlib.tamiflex.UnexpectedReflectiveCall");
+			clazz = Class.forName("soot.rtlib.tamiflex.SootSig");
+			clazz = Class.forName("soot.rtlib.tamiflex.UnexpectedReflectiveCall");
 			clazz = Class.forName("spec.benchmarks.check.C1");
 			clazz = Class.forName("spec.benchmarks.check.C2");
 			clazz = Class.forName("spec.benchmarks.check.C2intf");
@@ -22,25 +21,18 @@ public class ForNameAgent extends ClassLoader {
 			clazz = Class.forName("spec.benchmarks.check.LoopBounds");
 			clazz = Class.forName("spec.benchmarks.check.LoopBounds2");
 			clazz = Class.forName("spec.benchmarks.check.Main");
+			clazz = Class.forName("spec.benchmarks.check.PepTest");
 			clazz = Class.forName("spec.benchmarks.check.SideIntf");
 			clazz = Class.forName("spec.benchmarks.check.StringAndInt");
 			clazz = Class.forName("spec.benchmarks.check.Sub");
 			clazz = Class.forName("spec.benchmarks.check.Super");
 			clazz = Class.forName("spec.benchmarks.check.subClass");
 			clazz = Class.forName("spec.benchmarks.check.superClass");
-			clazz = Class.forName("spec.benchmarks.compress.CodeTable");
-			clazz = Class.forName("spec.benchmarks.compress.CompBase");
-			clazz = Class.forName("spec.benchmarks.compress.Compress");
-			clazz = Class.forName("spec.benchmarks.compress.Compressor$HashTable");
-			clazz = Class.forName("spec.benchmarks.compress.Compressor");
-			clazz = Class.forName("spec.benchmarks.compress.Decompressor$DeStack");
-			clazz = Class.forName("spec.benchmarks.compress.Decompressor$SuffixTable");
-			clazz = Class.forName("spec.benchmarks.compress.Decompressor");
-			clazz = Class.forName("spec.benchmarks.compress.Harness$Source");
-			clazz = Class.forName("spec.benchmarks.compress.Harness");
-			clazz = Class.forName("spec.benchmarks.compress.InputBuffer");
-			clazz = Class.forName("spec.benchmarks.compress.Main");
-			clazz = Class.forName("spec.benchmarks.compress.OutputBuffer");
+			clazz = Class.forName("spec.benchmarks.scimark.sparse.Main");
+			clazz = Class.forName("spec.benchmarks.scimark.sparse.SparseCompRow");
+			clazz = Class.forName("spec.benchmarks.scimark.utils.Random");
+			clazz = Class.forName("spec.benchmarks.scimark.utils.Stopwatch");
+			clazz = Class.forName("spec.benchmarks.scimark.utils.kernel");
 			clazz = Class.forName("spec.harness.BenchmarkThread");
 			clazz = Class.forName("spec.harness.CommandLineParser");
 			clazz = Class.forName("spec.harness.Configuration");

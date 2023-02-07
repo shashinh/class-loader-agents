@@ -7,12 +7,12 @@ public class ForNameAgent extends ClassLoader {
 			
 			Class clazz;
 
-			clazz = Class.forName("soot.rtlib.tamiflex.IUnexpectedReflectiveCallHandler");
+			//clazz = Class.forName("soot.rtlib.tamiflex.IUnexpectedReflectiveCallHandler");
 			clazz = Class.forName("soot.rtlib.tamiflex.OpaquePredicate");
 			clazz = Class.forName("soot.rtlib.tamiflex.ReflectiveCalls");
 			clazz = Class.forName("soot.rtlib.tamiflex.ReflectiveCallsWrapper");
 			clazz = Class.forName("soot.rtlib.tamiflex.SootSig");
-			clazz = Class.forName("soot.rtlib.tamiflex.UnexpectedReflectiveCall");
+			//clazz = Class.forName("soot.rtlib.tamiflex.UnexpectedReflectiveCall");
 			clazz = Class.forName("spec.benchmarks.check.C1");
 			clazz = Class.forName("spec.benchmarks.check.C2");
 			clazz = Class.forName("spec.benchmarks.check.C2intf");

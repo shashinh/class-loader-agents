@@ -225,12 +225,6 @@ public class ForNameAgent extends ClassLoader {
 			clazz = Class.forName("org.dacapo.parser.SimpleCharStream");
 			clazz = Class.forName("org.dacapo.parser.Token");
 			clazz = Class.forName("org.dacapo.parser.TokenMgrError");
-			clazz = Class.forName("soot.rtlib.tamiflex.IUnexpectedReflectiveCallHandler");
-			clazz = Class.forName("soot.rtlib.tamiflex.OpaquePredicate");
-			clazz = Class.forName("soot.rtlib.tamiflex.ReflectiveCalls");
-			clazz = Class.forName("soot.rtlib.tamiflex.ReflectiveCallsWrapper");
-			clazz = Class.forName("soot.rtlib.tamiflex.SootSig");
-			clazz = Class.forName("soot.rtlib.tamiflex.UnexpectedReflectiveCall");
 			clazz = Class.forName("soot.rtlib.tamiflex.DefaultHandler");
 			clazz = Class.forName("soot.rtlib.tamiflex.IUnexpectedReflectiveCallHandler");
 			clazz = Class.forName("soot.rtlib.tamiflex.OpaquePredicate");
@@ -246,7 +240,7 @@ public class ForNameAgent extends ClassLoader {
 	}
 	
 	public static void premain(String args, Instrumentation inst) {
-		System.out.println("Class Resolver Agent begin");
+		System.out.println("Luindex Class Resolver Agent begin");
 
 	}
 }

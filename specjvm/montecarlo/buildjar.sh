@@ -1,5 +1,5 @@
 #!/bin/bash
 
 javac ForNameAgent.java
-jar cmvf manifest.txt "$1" ForNameAgent.class
+jar cmvf manifest.txt montecarlo ForNameAgent.class
 \rm *.class
